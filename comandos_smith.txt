@@ -1,0 +1,88 @@
+    1  mvn --version
+    2  vi holaMundo.java
+    3  java --help
+    4  java -help
+    5  java class holaMundo.java 
+    6  java holaMundo.java 
+    7  javac holaMundo.java 
+    8  java holaMundo.java 
+    9  ls
+   10  java HolaMundo.class 
+   11  java HolaMundo
+   12  mvn --version
+   13  sudo su -
+   14  exit
+   15  java HolaMundo.class 
+   16  java HolaMundo
+   17  date
+   18  ls
+   19  vi holaMundo.java 
+   20  javac holaMundo.java 
+   21  java HolaMundo
+   22  date
+   23  python
+   24  exit
+   25  sudo su -
+   26  ll
+   27  pwd
+   28  vim /etc/motd 
+   29  cd /etc
+   30  ls
+   31  vim motd
+   32  vi motd
+   33  sudo vi motd
+   34  yum install git -y
+   35  sudo yum install git -y
+   36  git config --config user.name "OliverCisneros"
+   37  git config --global user.name "OliverCisneros"
+   38  git config --global user.email "cangrejoloco2k@gmail.com"
+   39  git config --list
+   40  cd ..
+   41  cd ~
+   42  git config --global user.name "OliverCisneros"
+   43  git config --global user.email "cangrejoloco2k@gmail.com"
+   44  git config --list
+   45  mkdir pruebas
+   46  cd pruebas/
+   47  cd ..
+   48  cd etc/
+   49  cd ..
+   50  cd ~
+   51  cd pruebas/
+   52  git init
+   53  git remote add origin httpds://github.com/OliverCisneros/pruebas.git
+   54  vi README.md
+   55  git add .
+   56  git commit -m "First commit"
+   57  git push origin master
+   58  git remote add origin httpd://github.com/OliverCisneros/pruebas.git
+   59  git remote rm
+   60  git remote -v
+   61  git remote rm origin
+   62  git remote add origin https://github.com/OliverCisneros/pruebas.git
+   63  git push origin master
+   64  cd ..
+   65  cd /etc/
+   66  ls
+   67  vi motd 
+   68  sudo vi motd 
+   69  exit
+   70  cd pruebas/
+   71  ls
+   72  cat /etc/motd >> README.md
+   73  git add .
+   74  git commit -m "Se modifico el README"
+   75  git push origin master
+   76  cd /etc/
+   77  vi motd 
+   78  cd ~
+   79  cd pruebas/
+   80  vi README.md 
+   81  git add .
+   82  git commit -m "Se modifico el README"
+   83* 
+   84  git branch -h
+   85  git branch -v
+   86  git branch -a
+   87  git checkout -b comandos
+   88  history >> comandos_smith.txt
